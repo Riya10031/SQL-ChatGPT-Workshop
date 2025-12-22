@@ -20,25 +20,25 @@ In this task, you will be reviewing the OpenAI deployments.
 
    ![](images2/1/t1s1.png "Azure OpenAI")
    
-1. From the **Azure AI services | Azure OpenAI** pane, select **SQL-OpenAI-<inject key="Deployment ID" enableCopy="false"/>**.
+1. From the **Microsoft Foundry | Azure OpenAI** pane, select **SQL-OpenAI-<inject key="Deployment ID" enableCopy="false"/>**.
 
-   ![](images/21-06-25-s2-1.png)
+   ![](images2/im-01.png)
 
-1. In the **Azure OpenAI** resource pane, click **Go to Azure AI Foundry portal** from the top menu bar to navigate to the Azure AI Foundry portal.
+1. In the **Azure OpenAI** resource pane, click **Go to Foundry portal** from the top menu bar to navigate to the Azure AI Foundry portal.
 
-   ![](images/im1.png "Azure OpenAI")
+   ![](images2/im-02.png "Azure OpenAI")
       
-1. In Azure AI Foundry, select **Deployments (1)** from the left navigation pane, verify the **gpt-35-turbo** model is deployed with the name **sql-chatgpt-model (2)**, and copy the model name for later use.
+1. In Microsoft Foundry, select **Deployments (1)** from the left navigation pane, verify the **gpt-35-turbo** model is deployed with the name **sql-chatgpt-model (2)**, and copy the model name for later use.
 
-   ![](images/21-06-25-s2-2.png "Azure OpenAI")
+   ![](images2/im-03.png "Azure OpenAI")
 
    > **Note**: Click on the **Expand** button, if you dont see the left side navigation pane.
 
-   ![](images/im3.png "Keys and Endpoints")          
+   ![](images2/im-04.png "Keys and Endpoints")          
    
 1. Naviagte back to **Azure portal**, expand **Resource Management (1)** from the left pane, go to **Keys and Endpoint (2)**, click **Show Keys (3)**, then copy **KEY 1 (4)** and the **Endpoint (5)**, and save them in a notepad for later use.
 
-   ![](images2/1/t1s5.png)
+   ![](images2/im-05.png)
   
 ## Task 2: Deploy the application to Azure
 
@@ -98,14 +98,14 @@ In this task, you will be reviewing the code in the Visual Studio Code and publi
 
    ![](images/sql12.png "Azure OpenAI")
 
-1. Run the following command to set up the resource group deployment and **create a new environment**. Replace `{DeploymentId}` with **<inject key="Deployment ID" enableCopy="true"/>** before executing.
+1. Run the following command to set up the resource group deployment and **create a new environment**.
 
    ```bash
    azd config set alpha.resourceGroupDeployments on
    ```
    
    ```bash
-   azd env new sql-chat-gpt-{DeploymentId}
+   azd env new sql-chat-gpt-<inject key="DeploymentID" enableCopy="false"/>
    ```
 
    ![](images2/1/11.png)
@@ -149,7 +149,7 @@ In this task, you will be reviewing the code in the Visual Studio Code and publi
    > - If not, carefully read the error message and retry the step, following the instructions in the lab guide. 
    > - If you need any assistance, please contact us at cloudlabs-support@spektrasystems.com. We are available 24/7 to help you out.
 
-<validation step="d47c14c0-5c3c-489c-9872-959b900195b5" />
+<validation step="903c0c69-137e-431a-8aa2-9097df6507ae" />
 
 ## Summary
 
