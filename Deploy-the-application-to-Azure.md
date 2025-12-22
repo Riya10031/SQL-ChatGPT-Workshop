@@ -78,7 +78,7 @@ In this task, you will be reviewing the code in the Visual Studio Code and publi
    cd C:\LabFiles\OpenAIWorkshop-Automation
    ```
 
-   ![](images2/1/7a.png)
+   ![](images2/imoio.png)
 
 1. Execute the following command to **Authenticate** with **Azure**. It will redirect to Azure authorize website.
 
@@ -94,9 +94,11 @@ In this task, you will be reviewing the code in the Visual Studio Code and publi
 
    ![](images2/1/8b.png)
 
-    >**Note:** The warnings can be ignored.
+    >**Note:** If warnings appear and prompt you to upgrade, then run the following command:
 
-   ![](images/sql12.png "Azure OpenAI")
+      ```
+      choco upgrade azd
+      ```
 
 1. Run the following command to set up the resource group deployment and **create a new environment**.
 
