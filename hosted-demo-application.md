@@ -35,11 +35,11 @@ In this task, you will work with the Data Analysis Assistant and SQL Query Writi
      
      - From the left navigation pane click on **Deployments (1)**, select the **sql-chatgpt-model (2)** and click on **Edit (3)**.
 
-         ![](images/opai-1.png)
+         ![](images2/im-06.png)
      
-     - For the Model version select **0125(Default)** option and click on **Submit Changes**.
+     - For the Model version select **2025-04-14 (Default)** option and click on **Submit Changes**.
 
-         ![](images2/1/s2.png)
+         ![](images2/im-07.png)
 
      - Now, return to the **Azure portal**, launch the web app from the App Service resource, and repeat **Step 1** and **Step 2**.
 
