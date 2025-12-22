@@ -132,6 +132,10 @@ In this task, you will be reviewing the code in the Visual Studio Code and publi
 
      >**Note:** This process may take approximately 5–10 minutes as it creates the necessary resources, generates the web package, and publishes it to the **App Service**.
 
+     >**Tip:** If it takes more than 10 minutes, copy the highlighted URL from the prompt and paste it into a new browser tab to view the deployment. Please make sure to do this only after 10 minutes.
+
+      ![](images2/imuop.png)     
+
 1. Navigate back to the Azure portal, search for **App service (1)** and select **App services (2)** from the results.
 
       ![](images2/1/16.png)
